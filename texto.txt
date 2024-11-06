@@ -1,0 +1,56 @@
+registrar_equipo("cal","Cali","bal","234")
+
+buscar_equipo("ciudad", "cali")
+
+actualizar_estadisticas("america",3,2)
+
+actualizar_estadisticas("america",4,3)
+
+
+
+registrar_jugador("nom",3,"delantero","cas")
+
+registrar_jugador("nino",2,"delantero","junior")
+
+buscar_jugador("nombre","dayro moreno")
+
+buscar_jugador("nombre","j")
+
+actualizar_estadisticas_jug("dayro moreno",3,1)
+
+actualizar_estadisticas_jug("dayro moreno",1,0)
+
+
+
+registrar_sancion("SAN002", "equipo", "EQP001", "Incumplimiento de reglamento", "2024-11-15", 2)
+
+actualizar_estado_sancion("SAN001", "2024-11-20")
+
+actualizar_estado_sancion("SAN003", "2024-11-20")
+
+
+
+registrar_arbitro("ARB002", "Juanito Ararat", 3, "FIFA")
+
+asignar_arbitro("PAR001", "ARB001","2024-10-25")
+
+
+registrar_partido("PAR002",12,"once caldas","america")
+
+actualizar_resultado("PAR001", 3, 2)
+
+actualizar_resultado("par002",2, 1)
+
+registrar_evento("PAR001", 45, "gol", "once caldas", "Dayro Moreno" )
+
+registrar_evento("par002", 12, "tarjeta amarilla", "america", "carlos sierra")
+
+registrar_evento("par002",12,"gol","junior","carlos bacca")
+
+registrar_equipo("cal","Cali","bal","234")
+
+buscar_equipo("ciudad", "cali")
+
+actualizar_estadisticas("america",3,2)
+
+actualizar_estadisticas("america",4,3)
